@@ -1,0 +1,110 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>BallzMen International</title>
+    <link rel="shortcut icon" href="favicon.ico">
+	</head><body><embed src="dialup.mp3" id="audioPlayer" loop="true" width="2" height="0">
+    <style>
+        body { background-color: rgb(245, 245, 220); }
+        .header {
+            text-align: center;
+        }
+        .main {
+            text-align: center;
+        }
+        .center {
+            text-align: center;
+        }
+        .footer {
+            clear: both;
+            position: relative;
+            height: 200px;
+            margin-top: -200px;
+        }
+        .aggressiveRainbow {
+            font-weight: bold;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 40px;
+            color: red;
+            text-shadow: 3px 3px 0 rgb(217,31,38), 
+            6px 6px 0 rgb(226,91,14),
+            9px 9px 0 rgb(245,221,8),
+            12px 12px 0 rgb(5,148,68),
+            15px 15px 0 rgb(2,135,206),
+            18px 18px 0 rgb(4,77,145),
+            21px 21px 0 rgb(42,21,113)
+        }
+        .inline {
+            display: inline;
+        }
+        .img-with-text {
+            text-align: justify;
+            width: [width of img];
+        }
+
+        .img-with-text img {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+		
+		$("#audioPlayer").play();
+    </script>
+
+
+
+    <div id="HeaderDiv" class="header">
+        <h1 class="aggressiveRainbow">BallzMen International</h1>
+        <a>[</a><a href="#roster">Roster</a> - <a href="#games">Games</a>]
+        <hr>
+    </div>
+
+    <div id="MainDiv" class="main">
+        <br>
+        <img src="logo.png" width="500" height="500">
+    </div>
+
+    <div id="games">
+        <hr>
+        <h1 class="aggressiveRainbow">Games</h1>
+        <p class="center">BallzMen are a registered Due Process League team and had a CS:GO team</p>
+        <br>
+    </div>
+
+    <div id="roster">
+        <hr>
+        <h1 class="aggressiveRainbow">Roster</h1>
+        <div class="inline center img-with-text">
+            <a><img src="OrangeBall.png" width="100" height="100"></a>
+            <p class="center">Lord Loquat</p>
+        </div>
+        <div class="inline center img-with-text">
+            <a><img src="BlueBall.png" width="100" height="100"></a>
+            <p class="center">Bleu</p>
+        </div>
+        <div class="inline center img-with-text">
+            <a><img src="RedBall.png" width="100" height="100"></a>
+            <p class="center">Averysumner</p>
+        </div>
+        <div class="inline center img-with-text">
+            <a><img src="GreenBall.png" width="100" height="100"></a>
+            <p class="center">Simon</p>
+        </div>
+        <div class="inline center img-with-text">
+            <a><img src="PinkBall.png" width="100" height="100"></a>
+            <p class="center">Jettford</p>
+        </div>
+        
+
+        <br>
+    </div>
+
+    <hr>
+
+    <footer id="footer">Copyright © BallzMen International</footer>
+</body></html>
