@@ -52,16 +52,13 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4ZENL4GR5"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+        var scroll = new SmoothScroll('a[href*="#"]');
+	
+	window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-C4ZENL4GR5');
-    </script>
-    <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
-		
-	$("#audioPlayer").play();
     </script>
 
 
